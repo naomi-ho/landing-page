@@ -54,17 +54,18 @@ a {
 button {
     background-color: #3882f6;
     border-radius: 5px;
+    border-color: none;
     color: #f9faf8;
     font-size: 18px;
     padding: 5px 20px;
 }
 
-.hero-sign-up {
-    border-color: none;
-}
-
 .image-placeholder {
     background-color: grey;
+}
+
+.information-section, footer {
+    text-align: center;
 }
 
 .information-header {
@@ -91,6 +92,20 @@ button {
     font-weight: bold;
 }
 
+.action {
+    color: #f9faf8;
+    background-color: #3882f6;
+}
+
+.action-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .action-sign-up {
     border-color: #f9faf8;
+}
+
+footer {
+    padding: 16px;
 }
