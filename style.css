@@ -67,16 +67,18 @@ a {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-bottom: 8px;
 }
 
 .hero-secondary {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 button {
     background-color: #3882f6;
     border-radius: 5px;
-    border-color: none;
+    border-style: solid;
+    border-color: #3882f6;
     color: #f9faf8;
     font-size: 18px;
     padding: 5px 20px;
@@ -102,8 +104,17 @@ button {
     color: #1f2937;
 }
 
+.cards {
+    display: flex;
+    gap: 16px;
+}
+
 .information {
     font-size: 18px;
+}
+
+.image {
+    border-radius: 5px;
 }
 
 .quote-section {
@@ -130,11 +141,13 @@ button {
     color: #f9faf8;
     background-color: #3882f6;
     width: 70vw;
-    margin: 70px auto;  
+    margin: 70px auto;
+    border-radius: 5px;  
 }
 
 .action-contents {
-    padding: 40px 100px;
+    display: flex;
+    padding: 40px 150px;
 }
 
 .action-header {
@@ -144,6 +157,7 @@ button {
 
 .action-sign-up {
     border-color: #f9faf8;
+    margin-left: auto;
 }
 
 footer {
